@@ -15,9 +15,33 @@ public class FormyPageActions {
 
     }
 
-    public void setForm1(String firstName){
+    public void verifyApp() {
 
-        formyPage.getForm1().sendKeys(firstName);
+        try {
+            if (formyPage.getPageTitle().equals("Formy")) {
+                if (formyPage.getHeader().isDisplayed()) {
+                    System.out.println("Actual result: App Loaded Succesfully");
+                } else System.out.println("Actual result: App Not Loaded");
+            } else System.out.println("Actual result: App Not Loaded");
+
+        } catch (Exception e) {
+            System.out.println("Actual result: App Not Loaded");
+            System.out.println(e);
+        }
+    }
+
+    public void setFirstname(String firstName){
+
+        try {
+            formyPage.getForm1().sendKeys(firstName);
+            System.out.println("Actual result: First Name Set Successfully");
+
+        }catch( Exception e){
+
+            System.out.println("Actual result: not possible to set name");
+            System.out.println(e);
+
+        }
     }
 
 

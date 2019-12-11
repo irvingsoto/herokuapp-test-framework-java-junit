@@ -13,8 +13,10 @@ public class FormyPage {
         this.driver = driver;
     }
 
-    public WebElement getForm1(){
+    public String getPageTitle(){ return driver.getTitle();  }
 
-        return driver.findElement(By.id("first-name"));
-    }
+    public WebElement getHeader() { return driver.findElement(By.xpath("/html/body/div/h1")); }
+
+    public WebElement getForm1(){ return driver.findElement(By.id("first-name")); }
+
 }

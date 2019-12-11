@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeb667a0-dc2e-4b98-932c-58ffd6136a5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/BaseTestWithJunit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/BaseTestWithJunit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/actions/FormyPageActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/actions/FormyPageActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/pageObjects/FormyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestAutomationFramework/pageObjects/FormyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/actions/FormyPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/actions/FormyPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageObjects/FormyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageObjects/FormyPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +20,28 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestAutomationFramework" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TestCases/TestCase_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="226">
               <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TestCases/FirstJunitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,14 +79,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/actions/FormyPageActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="71">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -82,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="203">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,32 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/pageObjects/FormyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testRunner/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testRunner/TestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,20 +166,20 @@
         <option value="$PROJECT_DIR$/test/TestCases/Junit.java" />
         <option value="$PROJECT_DIR$/test/testRunner/TestRunner.java" />
         <option value="$PROJECT_DIR$/test/testRunner/TestSuite.java" />
-        <option value="$PROJECT_DIR$/test/pageObjects/FormyPage.java" />
         <option value="$PROJECT_DIR$/test/base/TestBase.java" />
         <option value="$PROJECT_DIR$/test/TestCases/DBTesting.java" />
         <option value="$PROJECT_DIR$/test/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/test/pageObjects/FormyPage.java" />
         <option value="$PROJECT_DIR$/test/actions/FormyPageActions.java" />
         <option value="$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="198" />
+    <option name="y" value="58" />
+    <option name="width" value="1280" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -365,17 +371,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575499191104</updated>
-      <workItem from="1575499195135" duration="41822000" />
+      <workItem from="1575499195135" duration="44690000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseTestWithJunit - 2019.12.09 at 16h 16m 26s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.09 at 16h 28m 13s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BaseTestWithJunit - 2019.12.09 at 16h 30m 14s.xml">
       <configuration name="BaseTestWithJunit" configurationId="JUnit" />
     </history-entry>
@@ -400,28 +400,34 @@
     <history-entry file="BaseTestWithJunit - 2019.12.10 at 17h 33m 43s.xml">
       <configuration name="BaseTestWithJunit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BaseTestWithJunit - 2019.12.10 at 19h 34m 39s.xml">
+      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTestWithJunit - 2019.12.10 at 19h 35m 53s.xml">
+      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41822000" />
+    <option name="totallyTimeSpent" value="44690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5026455" side_tool="true" weight="0.22024292" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2595949" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4973545" weight="0.22024292" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24939272" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.66630554" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.94671404" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.47887325" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.84547067" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -441,18 +447,18 @@
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" id="Favorites" order="3" sideWeight="0.5026455" side_tool="true" visible="true" weight="0.22024292" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2595949" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4973545" visible="true" weight="0.22024292" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24939272" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.94671404" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.47887325" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.84547067" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -549,32 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/FirstJunitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testRunner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pageObjects/FormyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -622,30 +606,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/actions/FormyPageActions.java">
+    <entry file="file://$PROJECT_DIR$/test/TestCases/TestCase_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="226">
+          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestCases/FirstJunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pageObjects/FormyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="203">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/TestCase_01.java">
+    <entry file="file://$PROJECT_DIR$/test/actions/FormyPageActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+        <state relative-caret-position="71">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
