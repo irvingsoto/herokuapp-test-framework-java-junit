@@ -5,6 +5,10 @@ import base.TestBase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseTestWithJunit extends TestBase {
 
@@ -27,6 +31,18 @@ public class BaseTestWithJunit extends TestBase {
         //Step 2.- Set First Name
         System.out.println("Step 2.- Set First Name");
         formyPage.setFirstname("Irving");
+
+        driver.findElement(By.linkText("Submit")).click();
+        //Step 2.- Set First Name
+        System.out.println("Step 3.- Validate form is submitted");
+        formyPage.validateConfirmation();
+
+
+
+
+
+
+
 
     }
 

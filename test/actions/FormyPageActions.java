@@ -44,6 +44,15 @@ public class FormyPageActions {
         }
     }
 
+    public void validateConfirmation (){
+
+        System.out.println("The TXT IS " + formyPage.getConfirmMsj().getText());
+        if (formyPage.getConfirmMsj().getText().equals("The form was successfully submitted!"))
+            System.out.println("Actual result: Form was successfully submitted!");
+        else System.out.println("Actual result: Not Possible to submitt form ");
+
+    }
+
 
 
 
