@@ -1,6 +1,6 @@
 package base;
 
-import data.ExcellUtil;
+import util.ExcelUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.Map;
@@ -9,7 +9,7 @@ public class TestBase {
 
     protected WebDriver driver;
 
-    protected Map <String, String> configData = ExcellUtil.getSpecifySheet(".\\test\\data\\data.xls", "Config", "config");
+    protected Map <String, String> configData = ExcelUtil.getSpecifySheet(".\\test\\data\\data.xls", "Config", "config");
 
     public void beforeClass(String driverType, String testCaseName) {
 

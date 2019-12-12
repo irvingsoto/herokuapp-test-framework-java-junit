@@ -1,4 +1,4 @@
-package data;
+package util;
 
 import jxl.Sheet;
 import jxl.Workbook;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ExcellUtil {
+public class ExcelUtil {
 	
 	public static Map<String, String> importDataTable(String dir, String excelname, String sheetname,String findContent) {
 		

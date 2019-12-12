@@ -1,6 +1,6 @@
 package TestCases;
 
-import data.ExcellUtil;
+import util.ExcelUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,8 +11,8 @@ public class TestCase_01 {
 
     public static void main(String[] args) {
 
-        Map <String, String> configData = ExcellUtil.getSpecifySheet(".\\test\\data\\data.xls", "Config", "config");
-        Map <String, String> testData = ExcellUtil.getSpecifySheet(".\\test\\data\\data.xls", "TestData", "TestCase_01");
+        Map <String, String> configData = ExcelUtil.getSpecifySheet(".\\test\\data\\data.xls", "Config", "config");
+        Map <String, String> testData = ExcelUtil.getSpecifySheet(".\\test\\data\\data.xls", "TestData", "TestCase_01");
 
         //Initialize Driver
         System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
