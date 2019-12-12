@@ -2,14 +2,14 @@ package TestCases;
 
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class DBTesting {
 
     public static void  main(String[] args) throws  ClassNotFoundException, SQLException {
-        //Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"
+
         String dbUrl = "jdbc:mysql://localhost:3306/tecgurus?serverTimezone=UTC";
-               // "jdbc:mysql://10.44.181.94:3306/tecgurus";
-        //"jdbc:mysql://localhost:3306/tecgurus";
+
         //Database Username
         String username = "root";
 
@@ -17,7 +17,7 @@ public class DBTesting {
         String password = "welcome";
 
         //Query to Execute
-        String query = "SELECT lastname FROM employees;";
+        String query = "SELECT role FROM employees;";
 
         //Load mysql jdbc driver
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -33,13 +33,15 @@ public class DBTesting {
 
         // While Loop to iterate through all data and print results
 
-        String lastName = null;
+        ArrayList<String> resultList = new ArrayList();
 
-        if (rs.next()){
-          lastName = rs.getString("lastname");
+        while (rs.next()){
+          resultList.add(rs.getString("role")) ;
         }
 
-        System.out.println("Result: " + lastName);
+        for (String temp : resultList) {
+            System.out.println(temp);
+        }
 
         //closing DB Connection
         con.close();
