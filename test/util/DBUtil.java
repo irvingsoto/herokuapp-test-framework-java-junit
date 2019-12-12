@@ -5,33 +5,41 @@ import java.util.ArrayList;
 
 public class DBUtil {
 
-    public ArrayList<String> sqlResult (String dataToQuery, String table) throws  ClassNotFoundException, SQLException {
-
-        String dbUrl = "jdbc:mysql://localhost:3306/tecgurus?serverTimezone=UTC";
+    public ArrayList<String> sqlResult (String dataToQuery, String table) {
 
         ArrayList<String> result = new ArrayList();
 
-        String username = "root";
-        String password = "welcome";
+        try {
+            String dbUrl = "jdbc:mysql://localhost:3306/tecgurus?serverTimezone=UTC";
 
-        String query = "SELECT " + dataToQuery +" FROM " + table +";";
+            String username = "root";
+            String password = "welcome";
 
-        Class.forName("com.mysql.cj.jdbc.Driver");
+            String query = "SELECT " + dataToQuery +" FROM " + table +";";
 
-        Connection con = DriverManager.getConnection(dbUrl,username,password);
-        Statement stmt = con.createStatement();
-        ResultSet rs= stmt.executeQuery(query);
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
-        while (rs.next()){
-            result.add(rs.getString(dataToQuery)) ;
+            Connection con = DriverManager.getConnection(dbUrl,username,password);
+            Statement stmt = con.createStatement();
+            ResultSet rs= stmt.executeQuery(query);
+
+            while (rs.next()){
+                result.add(rs.getString(dataToQuery)) ;
+            }
+            con.close();
+
+        } catch (ClassNotFoundException e ){
+            System.out.println("Not Possible to load JDBC Driver" + e);
         }
-        con.close();
 
-        return result;
-
+        catch (SQLException e){
+        System.out.println("Not Possible to connect to database" + e);
     }
 
-    public static void main(String[] args) throws  ClassNotFoundException, SQLException{
+        return result;
+    }
+
+    public static void main(String[] args) {
 
         DBUtil o = new DBUtil();
         System.out.println(o.sqlResult("firstname", "employees"));
