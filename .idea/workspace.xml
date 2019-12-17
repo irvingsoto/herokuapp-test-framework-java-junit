@@ -2,10 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeb667a0-dc2e-4b98-932c-58ffd6136a5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAutomationFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestAutomationFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/Data/ExcellUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/Data/TestData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/Alert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/BaseTestWithJunit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/DBTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/FirstJunitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/Junit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/TestCases/TestCase_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/actions/FormyPageActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/base/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/pageObjects/FormyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/testRunner/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/testRunner/TestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestAutomationFramework/util/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestCases/TestCase_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestCases/TestCase_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/actions/FormyPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/actions/FormyPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/base/TestBase.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +66,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="TestAutomationFramework" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,70 +85,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Data/src/TestData.java" />
-        <option value="$PROJECT_DIR$/test/TestCases/Alert.java" />
-        <option value="$PROJECT_DIR$/test/Data/TestData.java" />
-        <option value="$PROJECT_DIR$/test/TestCases/TestClass.java" />
-        <option value="$PROJECT_DIR$/test/Data/ExcellUtil.java" />
-        <option value="$PROJECT_DIR$/test/data/ExcellUtil.java" />
-        <option value="$PROJECT_DIR$/test/TestCases/Junit.java" />
-        <option value="$PROJECT_DIR$/test/testRunner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/test/testRunner/TestSuite.java" />
-        <option value="$PROJECT_DIR$/test/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/test/pageObjects/FormyPage.java" />
-        <option value="$PROJECT_DIR$/test/actions/FormyPageActions.java" />
-        <option value="$PROJECT_DIR$/test/TestCases/DBTesting.java" />
-        <option value="$PROJECT_DIR$/test/util/DBUtil.java" />
-        <option value="$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java" />
-        <option value="$PROJECT_DIR$/test/TestCases/TestCase_01.java" />
-        <option value="$PROJECT_DIR$/test/TestCases/FirstJunitTest.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="132" />
-    <option name="y" value="39" />
-    <option name="width" value="853" />
-    <option name="height" value="454" />
-  </component>
+  <component name="ProjectId" id="1UuLVlWTWY1PcZR1i6fXuqIiGr3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TestAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAutomationFramework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -124,6 +125,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -134,19 +136,7 @@
       <recent name="C:\Users\isoto\IdeaProjects\TestAutomationFramework" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.DBUtil">
+  <component name="RunManager" selected="JUnit.BaseTestWithJunit">
     <configuration name="DBTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestCases.DBTesting" />
       <module name="TestAutomationFramework" />
@@ -173,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner" />
+    <configuration name="TestBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.TestBase" />
       <module name="TestAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testRunner.*" />
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +208,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseTestWithJunit" />
+        <item itemvalue="Application.TestBase" />
         <item itemvalue="Application.DBUtil" />
         <item itemvalue="Application.DBTesting" />
-        <item itemvalue="JUnit.BaseTestWithJunit" />
         <item itemvalue="JUnit.TestSuite" />
-        <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -236,304 +238,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575499191104</updated>
-      <workItem from="1575499195135" duration="59508000" />
+      <workItem from="1575499195135" duration="62814000" />
+      <workItem from="1576201329340" duration="60000" />
+      <workItem from="1576201570732" duration="898000" />
+      <workItem from="1576266751260" duration="1835000" />
+      <workItem from="1576543973893" duration="6313000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 19h 35m 53s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 19h 43m 29s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 26m 35s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 27m 26s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 28m 22s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 35m 57s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 43m 45s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 45m 32s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 47m 18s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTestWithJunit - 2019.12.10 at 20h 48m 23s.xml">
-      <configuration name="BaseTestWithJunit" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59508000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5026455" side_tool="true" weight="0.22024292" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.24939272" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4973545" visible="true" weight="0.20522387" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.19393283" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.4734561" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5026455" side_tool="true" weight="0.22024292" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.24939272" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4973545" visible="true" weight="0.11247335" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3268206" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.4734561" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/src/TestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/org/openqa/selenium/By.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-          <folding>
-            <element signature="e#2059#2060#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/data/TestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="7" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/util/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testRunner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testRunner/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.17.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/TestCase_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/FirstJunitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/Alert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/Junit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/DBTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/util/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/actions/FormyPageActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestCases/BaseTestWithJunit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pageObjects/FormyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="272" y="29" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576544854168">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="272" y="29" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1576544854168" />
+    <state width="1251" height="249" key="GridCell.Tab.0.bottom" timestamp="1576551299417">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1251" height="249" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576551299417" />
+    <state width="1251" height="249" key="GridCell.Tab.0.center" timestamp="1576551299417">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1251" height="249" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576551299417" />
+    <state width="1251" height="249" key="GridCell.Tab.0.left" timestamp="1576551299417">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1251" height="249" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576551299417" />
+    <state width="1251" height="249" key="GridCell.Tab.0.right" timestamp="1576551299417">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1251" height="249" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576551299417" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1576545260566">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1576545260566" />
+    <state x="335" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1576543977262">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="335" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576543977262" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1576545252031">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576545252031" />
   </component>
   <component name="masterDetails">
     <states>

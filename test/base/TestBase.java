@@ -1,9 +1,14 @@
 package base;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import util.ExcelUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.io.File;
 import java.util.Map;
+import org.apache.commons.io.FileUtils;
 
 public class TestBase {
 
@@ -40,6 +45,34 @@ public class TestBase {
     //          driver = getChromeDriver();
     //        break;
     //}
+
     //}
+
+    public void takeSnapShot(String testCaseName) throws Exception{
+    try {
+        //Convert web driver object to TakeScreenshot
+
+        TakesScreenshot scrShot =((TakesScreenshot)driver);
+
+        //Call getScreenshotAs method to create image file
+
+        File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+        //Move image file to new destination
+
+        File DestFile=new File(".\\results\\"+ testCaseName +".png");
+
+        //Copy file at destination
+
+        FileUtils.copyFile(SrcFile, DestFile);
+
+    }
+    catch (Exception e){
+        System.out.println("Not possible to take SS " + e);
+    }
+
+    }
+
 }
+
 

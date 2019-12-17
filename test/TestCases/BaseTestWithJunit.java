@@ -18,28 +18,23 @@ public class BaseTestWithJunit extends TestBase {
     }
 
     @Test
-    public void testMain(){
+    public void testMain() throws Exception {
 
         FormyPageActions formyPage = new FormyPageActions (driver);
 
         //Step 1.- Oppen App
         System.out.println("Step 1.- Oppen App");
         formyPage.verifyApp();
+        takeSnapShot(testCaseName+"1");
         //Step 2.- Set First Name
         System.out.println("Step 2.- Set First Name");
         formyPage.setFirstname("Irving");
-
         driver.findElement(By.linkText("Submit")).click();
-        //Step 2.- Set First Name
+        takeSnapShot(testCaseName+"2");
+        //Step 3.- Set First Name
         System.out.println("Step 3.- Validate form is submitted");
         formyPage.validateConfirmation();
-
-
-
-
-
-
-
+        takeSnapShot(testCaseName+"3");
 
     }
 
