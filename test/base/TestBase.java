@@ -49,30 +49,29 @@ public class TestBase {
     //}
 
     public void takeSnapShot(String testCaseName) throws Exception{
-    try {
-        //Convert web driver object to TakeScreenshot
 
-        TakesScreenshot scrShot =((TakesScreenshot)driver);
+        try {
+            //Convert web driver object to TakeScreenshot
 
-        //Call getScreenshotAs method to create image file
+            TakesScreenshot scrShot =((TakesScreenshot)driver);
 
-        File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+            //Call getScreenshotAs method to create image file
 
-        //Move image file to new destination
+            File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 
-        File DestFile=new File(".\\results\\"+ testCaseName +".png");
+            //Create image file to destination
 
-        //Copy file at destination
+            File DestFile=new File(".\\results\\" + testCaseName+ ".png");
 
-        FileUtils.copyFile(SrcFile, DestFile);
+            //Copy file at destination
 
+            FileUtils.copyFile(SrcFile, DestFile);
+        }
+
+        catch (Exception e){
+            System.out.println("Not possible to take SS " + e);
+        }
     }
-    catch (Exception e){
-        System.out.println("Not possible to take SS " + e);
-    }
-
-    }
-
 }
 
 

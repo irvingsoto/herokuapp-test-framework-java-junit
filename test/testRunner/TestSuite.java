@@ -1,13 +1,13 @@
 package testRunner;
 
-import TestCases.BaseTestWithJunit;
+import TestCases.TestCase_02;
 import TestCases.FirstJunitTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
     @RunWith(Suite.class)
     @Suite.SuiteClasses({
-            BaseTestWithJunit.class,
+            TestCase_02.class,
             FirstJunitTest.class
             })
 

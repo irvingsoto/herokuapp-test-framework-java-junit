@@ -15,15 +15,19 @@ public class TestCase_01 {
         Map <String, String> testData = ExcelUtil.getSpecifySheet(".\\test\\data\\data.xls", "TestData", "TestCase_01");
 
         //Initialize Driver
-        System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get(configData.get("URL"));
-        driver.findElement(By.id("first-name")).sendKeys(testData.get("First_name"));
-        driver.findElement(By.id("last-name")).sendKeys(testData.get("LastName"));
+        //System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
+        //WebDriver driver = new ChromeDriver();
+        System.out.println("getting url from excel");
+        System.out.println(configData.get("URL"));
+       // driver.get(configData.get("URL"));
 
-        driver.findElement(By.id(testData.get("Radiobttn"))).click();
 
-        System.out.println(testData.get("Radiobttn"));
+        //driver.findElement(By.id("first-name")).sendKeys(testData.get("First_name"));
+        //driver.findElement(By.id("last-name")).sendKeys(testData.get("LastName"));
+
+        //driver.findElement(By.id(testData.get("Radiobttn"))).click();
+
+        //System.out.println(testData.get("Radiobttn"));
 
 
 

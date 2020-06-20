@@ -21,9 +21,6 @@ public class FormyPage {
 
     public WebElement getForm1(){ return driver.findElement(By.id("first-name")); }
 
-    public  WebElement getConfirmMsj (){
-        return(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div")));
-
-    }
+    public  WebElement getConfirmMsj (){ return(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div"))); }
 
 }
