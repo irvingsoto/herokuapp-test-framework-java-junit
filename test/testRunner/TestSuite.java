@@ -7,8 +7,7 @@ import org.junit.runners.Suite;
 
     @RunWith(Suite.class)
     @Suite.SuiteClasses({
-            TestCase_02.class,
-            FirstJunitTest.class
+
             })
 
     public class TestSuite {

@@ -14,13 +14,13 @@ public class DBUtil {
 
         ArrayList<String> result = new ArrayList();
 
-       // try {
+        try {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-        //} catch (ClassNotFoundException e ){ System.out.println("Not Possible to load JDBC Driver " + e); }
+        } catch (ClassNotFoundException e ){ System.out.println("Not Possible to load JDBC Driver " + e); }
 
-        //try {
+        try {
             Connection con = DriverManager.getConnection(dbUrl, username, password);
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(query);
@@ -32,7 +32,7 @@ public class DBUtil {
             con.close();
 
 
-        //}catch (SQLException e){ System.out.println("Not Possible to connect to database " + e); }
+        } catch (SQLException e){ System.out.println("Not Possible to connect to database " + e); }
 
         return result;
     }
